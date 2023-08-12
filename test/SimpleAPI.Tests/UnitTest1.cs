@@ -10,7 +10,7 @@ public class UnitTest1
     public void GetReturnMyCohort()
     {
         var returnValue = controller.Get(1);
-        Assert.Equal("August Cohort", returnValue.Value);
+        Assert.Equal("November Graduates", returnValue.Value);
     }
 
     [Fact]
