@@ -13,13 +13,13 @@ public class ValuesController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<string>> Get()
     {
-        return new string[] {"August", "Cohort"};
+        return new string[] {"November", "Graduates"};
     }
 
     //GEt api/values/id
     [HttpGet("{id}")]
     public ActionResult<string> Get(int id)
     {
-        return "August Cohort";
+        return "November Graduates";
     }
 }
