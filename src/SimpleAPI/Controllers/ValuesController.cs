@@ -13,7 +13,7 @@ public class ValuesController : ControllerBase
     [HttpGet]
     public ActionResult<IEnumerable<string>> Get()
     {
-        return new string[] {"values1", "values2"};
+        return new string[] {"August", "Cohort"};
     }
 
     //GEt api/values/id
